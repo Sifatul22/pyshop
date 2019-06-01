@@ -12,3 +12,4 @@ def index(request):
 
 def new(request):
     return HttpResponse('New products of the website!!')
+    
