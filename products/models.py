@@ -6,6 +6,7 @@ class Product(models.Model):
     price = models.FloatField()
     stock = models.IntegerField()
     image = models.CharField(max_length=2083)
+    objects = models.Manager()
 
 class Offer(models.Model):
     code = models.CharField(max_length = 32)
